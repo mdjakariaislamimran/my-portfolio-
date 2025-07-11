@@ -18,6 +18,9 @@
 .text-primary{
     color: #FD6E0A;
 }
+.bg{
+    background-color: #FFF8F3;
+}
 .dark-1{
     color: #181818;
 }
@@ -26,6 +29,7 @@
 }
 .dark-3{
     color: #757575;
+    
 }
 .btn{
     border-radius: 5px;
@@ -34,7 +38,7 @@
     padding: 18px 35px;
     font-size: 20px;
     font-weight: bolder;
-    
+    margin-right: 50px;
 }
 /* nav style */
 nav{
@@ -76,12 +80,52 @@ nav ul li a{
 .gritting{
     font-weight: 600px;
     font-size: 45;
+    margin-bottom: 5px;
 }
 .name{
     font-size: 45px;
     font-weight: bold;
+    margin-bottom:20px ;
 }
 .description{
     font-size: 18px;
     font-weight: 400px;
+    margin-bottom: 30px;
+}
+
+/* main styles */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/* section styles */
+.about{
+    padding: 130px 156px;
+    border-radius: 10px;
+    margin-top: 130px;
+}
+.about-me{
+    text-align: center;
+    background-color: #ffff;
+}
+.about-title{
+    font-size: 35px;
+    font-weight: bold;
+}
+.about-description{
+    font-size: 18px;
+    font-weight: 400px;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.item-title{
+    font-size: 20px;
+    font-weight: 400px;
+}
+.item-des{
+     font-size: 20px;
+    font-weight: 500px;
 }
