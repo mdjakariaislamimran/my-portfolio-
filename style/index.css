@@ -11,11 +11,37 @@
 .text-primary{
     color: #FD6E0A;
 }
+.dark-2{
+    color: #474747;
+}
+.btn{
+    border-radius: 5px;
+    background-color: #FD6E0A;
+    color: #ffff;
+    padding: 18px 35px;
+    font-size: 20px;
+    font-weight: bolder;
+    
+}
 /* nav style */
 nav{
     display: flex;
+    text-align: center;
+    justify-content: space-between;
+    margin: 0px 200px;
 }
 .nav-title{
     font-weight: bolder;
     font-size: 45px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    margin-right: 51px;
+}
+nav ul li a{
+    text-decoration: none;
 }
