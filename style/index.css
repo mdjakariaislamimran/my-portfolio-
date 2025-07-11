@@ -200,3 +200,31 @@ main{
 .resume-button{
     margin: 30px;
 }
+/* footer section */
+.footer-section{
+    padding: 130px 230px;
+}
+.footer{
+    display: flex;
+    gap: 117px;
+}
+.footer-title{
+    font-weight:bold;
+    font-size:35px;
+}
+.footer-des{
+    font-weight: 400px;
+    font-size: 16px;
+}
+form{
+    display: block;
+}
+footer label{
+    font-weight: bold;
+}
+footer input[type="text"],input[type="email"],textarea{
+    width: 461px;
+    height: 64px;
+    padding: 18px 350px 18px 30px;
+    border-radius: 5px;
+}
