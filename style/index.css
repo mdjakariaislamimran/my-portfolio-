@@ -9,7 +9,7 @@
 }
 /* header */
 .header{
-    background-image: url('/images/developer.png'), url('/images/header_bg.png');
+    background-image: url('../images/developer.png'), url('../images/header_bg.png');
     background-position: top left , right bottom;
     background-repeat: no-repeat;
     
@@ -203,9 +203,11 @@ main{
 /* footer section */
 .footer-section{
     padding: 130px 230px;
+     justify-content: center;
 }
 .footer{
     display: flex;
+   
     gap: 117px;
 }
 .footer-title{
